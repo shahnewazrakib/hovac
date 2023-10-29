@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #020F07;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    src: url('./fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    src: url('./fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: "HeptaSlab";
+    font-weight: 600;
+    src: url('./fonts/HeptaSlab-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "HeptaSlab";
+    font-weight: 700;
+    src: url('./fonts/HeptaSlab-Bold.ttf');
+}
