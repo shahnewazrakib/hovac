@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="container">
+      <main className="container px-4 sm:px-8">
         <Hero />
         <Game />
         <About />

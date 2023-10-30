@@ -8,6 +8,7 @@ export default {
       gray: "#D9D9D9",
       white: "#ffffff",
       yellow: "#F1C40F",
+      transparent: "#0000"
     },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
@@ -15,7 +16,6 @@ export default {
     },
     container: {
       center: true,
-      padding: "4rem",
       screens: {
         xl: "1440px",
       },

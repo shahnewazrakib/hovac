@@ -6,7 +6,7 @@ import Appstore from '../../images/app-store.png';
 function Footer() {
   return (
     <footer className="py-8 border-t border-gray/20">
-      <div className="container grid grid-cols-4">
+      <div className="container grid grid-cols-4 px-4 sm:px-8">
         <div className="space-y-4">
           <img className="w-[130px]" src={Logo} alt="" />
           <p className="font-inter text-gray font-light">
