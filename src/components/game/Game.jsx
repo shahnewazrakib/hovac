@@ -39,15 +39,15 @@ function Game() {
     },
   ];
   return (
-    <section id="games" className="mt-16 relative">
-      <h1 className="text-white font-heptaSlab font-semibold text-4xl text-center leading-tight">
-        Explore the Most
+    <section id="games" className="sm:mt-10 lg:mt-16 relative">
+      <h1 className="text-white font-heptaSlab font-semibold text-xl sm:text-2xl md:text-3xl 2xl:text-4xl text-center leading-relaxed">
+        Explore the Most{" "}
         <span className="text-lightGreen">
           Popular <br /> Games
-        </span>
+        </span>{" "}
         Ever Released
       </h1>
-      <div className="grid grid-cols-3 gap-8 mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-8 mt-8 sm:mt-12">
         {games.map((game, index) => {
           return (
             <div
@@ -55,7 +55,7 @@ function Game() {
               className="border border-lightGreen/50 rounded-xl p-5 bg-white/5 backdrop-blur-sm"
             >
               <img
-                className="h-[220px] object-cover rounded-xl"
+                className="h-[180px] sm:h-[220px] w-full object-cover rounded-xl"
                 src={game.image}
                 alt=""
               />
@@ -66,7 +66,7 @@ function Game() {
                 <FaStar />
                 <FaStar />
               </div>
-              <h2 className="font-heptaSlab text-lightGreen text-2xl font-medium mt-3">
+              <h2 className="font-heptaSlab text-lightGreen text-xl md:text-2xl font-medium mt-3">
                 {game.title}
               </h2>
               <p className="text-sm font-inter text-gray tracking-wider mt-1">
