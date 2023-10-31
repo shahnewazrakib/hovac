@@ -6,19 +6,19 @@ function Update() {
       icon: <FaShapes className={styles.icon} />,
       title: "New Characters",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum esse fuga culpa, tenetur nobis.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     },
     {
-      icon: <FaTachometerAlt className={styles.icon}/>,
+      icon: <FaTachometerAlt className={styles.icon} />,
       title: "Performance Increase",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum esse fuga culpa, tenetur nobis.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     },
     {
-      icon: <FaBug className={styles.icon}/>,
+      icon: <FaBug className={styles.icon} />,
       title: "Bug Fixes",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eum esse fuga culpa, tenetur nobis.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     },
   ];
   return (
